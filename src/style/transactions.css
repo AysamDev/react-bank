@@ -1,0 +1,6 @@
+.transactions
+{
+    display: grid;
+    gap: 1vmax;
+    grid-template-columns: 1fr;
+}

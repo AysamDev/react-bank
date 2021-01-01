@@ -1,0 +1,35 @@
+.operations{
+    display: grid;
+    background-clip: border-box;
+    justify-content: center;
+    background-color: #333333;
+    border: wheat double 1vmax ;
+    gap: 1vmax;
+    padding-bottom: 1vmax;
+    padding-bottom: 1vmax;
+}
+
+.operations > span{
+    display: grid;
+    font-size: larger;
+    color: wheat;
+    
+}
+.operations > input{
+    display: grid;
+    font-size: larger;
+    color: black;
+    padding-left: 1vmax;
+    padding-right: 1vmax;
+}
+
+button{
+    display: grid;
+    font-size: large;
+    padding: 1vmax;
+    background-color: wheat;
+}
+button:hover{
+    background-color: gray;
+    cursor: pointer;
+}
