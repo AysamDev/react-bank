@@ -36,3 +36,52 @@
     transform: rotate(360deg);
   }
 }
+
+#balance
+{
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  border: wheat double 1vmax ;
+  background-color: #333333;
+  padding: 1vmax;
+  border-radius: 6vmax;
+  color:wheat;
+  font-size: x-large;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+  grid-template-columns: repeat(2,1fr);
+}
+
+.start1
+{
+  display: grid;
+  justify-self: center;
+}
+.end1
+{
+  display: grid;
+  justify-self: ce;
+  
+}
+.navBar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+     list-style-type: none;
+     background-color: #333333;
+     margin: 0;
+     padding: 0;
+}
+
+li a {
+  display: grid;
+  color: wheat;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+  font-size: x-large;
+}
+
+li a:hover {
+  background-color: #111111;
+}

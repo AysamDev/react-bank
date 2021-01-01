@@ -1,0 +1,26 @@
+.transaction
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    background-color: #333333;
+    border: wheat double 1vmax ;
+    align-items: center;
+    color: wheat;
+}
+
+.positive:hover
+{
+    background-color:green;
+    opacity: 0.5;
+    
+}
+.positive .negative
+{
+    background-color: #333333;
+}
+.negative:hover
+{
+    background-color:tomato;
+    opacity: 0.7;
+    
+}
